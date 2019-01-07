@@ -10,7 +10,7 @@
         gitsm='git submodule sync && git submodule update --init --recursive --force'
 [user]
         name = Arnaud Méhat
-        email = amehat@genymobile.com
+        email = amehat@gmail.com
 [filter "lfs"]
         required = true
         clean = git-lfs clean -- %f

@@ -1,0 +1,18 @@
+[alias]
+        st = status
+        ci = commit
+        co = checkout
+        br = branch
+        sl = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate  --max-count=50
+        up = pull --rebase
+        cp = cherry-pick
+        please = push --force-with-lease
+        gitsm='git submodule sync && git submodule update --init --recursive --force'
+[user]
+        name = Arnaud Méhat
+        email = amehat@genymobile.com
+[filter "lfs"]
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process

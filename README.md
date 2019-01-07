@@ -1,0 +1,2 @@
+# gitconfig
+mon gitconfig perso
